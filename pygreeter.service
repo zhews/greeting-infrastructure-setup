@@ -1,0 +1,11 @@
+[Unit]
+Description=Service of pygreeter
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=python3 /home/pygreeter/app/main.py
+User=pygreeter
+
+[Install]
+WantedBy=multi-user.target

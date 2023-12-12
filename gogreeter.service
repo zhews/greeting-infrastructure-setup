@@ -1,0 +1,11 @@
+[Unit]
+Description=Service of gogreeter
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/gogreeter/app/bin/gogreeter
+User=gogreeter
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+---
+py:
+  hosts:
+    py01:
+      ansible_host: "REPLACE_ME"
+    py02:
+      ansible_host: "REPLACE_ME"
+go:
+  hosts:
+    go01:
+      ansible_host: "REPLACE_ME"
+    go02:
+      ansible_host: "REPLACE_ME"
